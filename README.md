@@ -14,7 +14,7 @@ and use as a custom module.
 
 ---
 
-1. Place the module files under your Waybar config, e.g. "left",
+1. Place the module files under your Waybar config, e.g. "modules-left",
    "modules-middle", or "modules-right" depending on where you want it to
    appear.
 
