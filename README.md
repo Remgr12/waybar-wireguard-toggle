@@ -22,11 +22,20 @@ and use as a custom module.
    ~/.config/waybar/config.jsonc (inside the top-level object). Use your own
    path where you saved the scripts.
 
-"custom/vpn": { "format": "{icon}", "format-icons": { "default": "", "none":
-"󰻌", "connected": "", "disconnected": "", }, "interval": 3, "return-type":
-"json", "exec": "~/Repositories/waybar-wireguard-toggle/nm-status.sh",
-"on-click": "~/Repositories/waybar-wireguard-toggle/nm-toggle.sh", "signal": 8,
-},
+"custom/vpn": {
+    "format": "{icon}",
+    "format-icons": {
+      "default": "",
+      "none": "󰻌",
+      "connected": "",
+      "disconnected": "",
+    },
+    "interval": 3,
+    "return-type": "json",
+    "exec": "/home/remgr/Repositories/waybar-wireguard-toggle/nm-status.sh",
+    "on-click": "/home/remgr/Repositories/waybar-wireguard-toggle/nm-toggle.sh",
+    "signal": 8,
+  },
 
 # Notes
 
