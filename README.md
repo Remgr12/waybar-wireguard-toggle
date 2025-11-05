@@ -1,16 +1,4 @@
-# waybar-wireguard-toggle
-
-waybar module to disable/enable your wireguard vpn.
-
-"custom/vpn": { "format": "{icon}", "format-icons": { "default": "", "none":
-"󰻌", "connected": "", "disconnected": "", }, "interval": 3, "return-type":
-"json", "exec": "/home/remgr/Repositories/waybar-wireguard-toggle/nm-status.sh",
-"on-click": "/home/remgr/Repositories/waybar-wireguard-toggle/nm-toggle.sh",
-"signal": 8, },
-
-"custom/vpn",
-
-# README — Waybar custom/vpn
+# Waybar Wiregaard toggle
 
 ==========================
 
