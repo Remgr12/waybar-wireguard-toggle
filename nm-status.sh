@@ -2,7 +2,7 @@
 set -eEo pipefail
 
 # --- CONFIGURATION ---
-CONNECTION_NAME="Laptop"
+CONNECTION_NAME="wg0"
 # ---------------------
 
 # Output JSON status for Waybar
