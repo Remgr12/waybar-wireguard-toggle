@@ -39,6 +39,9 @@ and use as a custom module.
   },
 ```
 
+3. change the connection name in both of the scripts to the name of your
+   wireguard interface (wg0 for example).
+
 # Notes
 
 ---
